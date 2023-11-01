@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>盐城</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .rotation-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .rotation {
+            display: none;
+        }
+        .rotation img{
+            width: 100%;
+            height: 500px;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        ul,li,h1,h2,h3,p{ padding:0; margin:0; list-style:none}
+h2{ padding-bottom:15px}
+a{ text-decoration:none; color:#000}
+html{ background:rgb(235, 225, 225)}
+img{ max-width:100%; display:block}
+body{  line-height:24px; margin:0}
+.main{width:1200px; margin:0 auto;}
+.clear{ clear:both}
+.menu li{ list-style:none}
+.banner{margin-bottom:10px; position:relative; clear:both}
+.menu{ width:100%;  text-align:center; background:#00CCCC; margin-bottom:20px;  position:relative; z-index:55; float:left}
+.menu li a{ color:#fff}
+.menu li { float:left;font-size:16px; padding:7px 30px ; width:140px}
+.content{ padding-bottom:20px;font-size:14px; display:inline-block ;  width:100%}
+.end{ clear:both;padding:20px 0; background:#00CCCC; color:#fff; text-align:center;}
+.pad{ padding:20px; display:block}
+.scrollleft { padding-bottom:15px}
+.scrollleft li{ width:296px; margin:2px; float:left}
+.scrollleft2 ul{
+white-space: nowrap;  
+
+ text-overflow:ellipsis; }
+.scrollleft2 li{ width:220px; margin:2px; float:left}
+
+.imglist li{ width:31.3%; float:left; margin:1%;}
+.fl{ float:left}
+.fr{ float:right}
+.bar{ margin-bottom:10px; padding:5px 0;color:#fff; background:#00CCCC; }
+.bar h3,.bar h2{  padding-left:20px; margin-bottom:0; padding-bottom:0; font-size:18px;}
+.head{ background:#fff; font-size:36px; padding:0px 0}
+.ass{ margin:10px}
+.ass li{ width:48%; margin:1%; float:left; text-align:center}.cc li img{ border:#6b639f solid 1px; padding:5px} 
+#zhuce{ width:500px; margin:0 auto; line-height:40px;padding:20px}
+#zhuce label{ text-align:right; display:inline-block; width:150px}
+.div{ display:inline-block; width:300px}
+#content {
+	width:1200px;
+	height:160px;
+	position:relative;
+	overflow:hidden
+}
+#content ul {
+	width:1200px;
+	height:160px;
+	position:absolute
+}
+#content ul li {
+	width:220px;
+	height:160px;	float:left
+}
+.form .nam{ margin:10px 0}
+.inp{ width:240px}
+.form input{ padding:10px;}
+.focus{height:485px;overflow:hidden;position:relative;}
+/* focus_s */
+.focus_s{position:absolute;left:50%;bottom:5%;height:13px;overflow:hidden;width:110px;z-index:9;margin:0 0 0 -30px;}
+.focus_s li{float:left;cursor:pointer;height:13px;width:12px;overflow:hidden;margin-right:10px;background:url(../images/dian.png) no-repeat;}
+.focus_s li.active{background-position:-12px 0;}
+/* focus_m */
+.focus_m ul{opacity:1;filter:alpha(opacity=100);}
+.focus_m li{width:100%;height:485px;position:absolute;top:0;left:0;}
+/* focus_l focus_r */
+.focus_l,.focus_r{position:absolute;display:block;width:50px;height:75px;overflow:hidden;z-index:2;top:190px;}
+.focus_l{left:0;}
+.focus_r{right:0;}
+.focus_l b,.focus_r b{position:absolute;z-index:1;display:block;width:50px;height:75px;overflow:hidden;background:#000;opacity:0.3;filter:alpha(opacity=30);cursor:pointer;}
+.focus_l span,.focus_r span{display:inline-block;position:relative;z-index:2;width:22px;height:33px;top:21px;cursor:pointer; margin-right:28px;}
+.focus_l span{left:12px;background-image:url(../images/l.png);_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/l.png');}
+.focus_r span{left:16px;background:url(../images/r.png) 0 0 no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/r.png');}
+.focus_l:hover b,.focus_r:hover b{opacity:0.5;filter:alpha(opacity=50);}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="main"><span class=""><img src="img/logo.jpg" width="150"/></span>
+          <p class="clear"></p>
+        </div>
+      </div>
+    <div class="menu">
+        <div class="main">
+          <ul class="center">
+            <li><a href="home.html">网站首页</a></li>
+            <li><a href="introduction.html">关于盐城</a></li>
+            
+            <li><a href="jiaxiangfengmao.html">家乡风貌</a></li>
+            <li><a href="lishiwenhua.html">历史文化</a></li>
+            <li><a href="jiaxiangmeishi.html">家乡美食</a></li> 
+            <li><a href="shequluntan.html">社区论坛</a></li>
+            
+           
+          </ul>
+        </div>
+      </div>
+
+<main id="scenic_main">
+    <div class="article_title">
+        <h1>盐城的旅游景点</h1>
+    </div>
+    <section>
+        <p>
+            2018年，盐城对外开放的旅游景区已达40多家，其中国家5A级旅游景区1家，4A级旅游景区17家，3A级旅游景区8家。</p>
+        <p>
+            “东方湿地、鹤鹿故乡”，盐城旅游品牌的影响力不断增强。582千米的海岸线对应着广阔的海洋。沿海滩涂面积683万亩，占江苏省滩涂总面积的75%，全国的1/7，且每年以5万亩的成陆速度增长。 </p>
+        <p>
+            绵延数百千米的滩涂湿地拥有丹顶鹤和麋鹿两个国家级自然保护区和一个在建的中华鲟自然保护区。</p>
+        <p>
+            这里海天相接，草木茂盛，鹤舞鹿鸣，一派原始生态风光，是近百种国家一、二类保护动物和近千种动植物栖息生长地。</p>
+        <p>
+            盐城拥有着丰富的旅游资源和景点，无论是历史文化还是自然风光，都能让游客感受到这座城市的独特魅力。如果您有机会前往盐城，不妨去运城一看，探寻这座城市的旅游之美。</p>
+    </section>
+    <section>
+        <h2>大丰中华麋鹿园景区</h2>
+        <p>江苏省大丰麋鹿国家级自然保护区坐落于中国四大湿地之一的南黄海湿地上，总面积78000公顷，其中核心区2668公顷，是世界上最大的麋鹿自然保护区。</p>
+        <p>其地貌由林地、芦荡、草滩、沼泽地、盐裸地组成，属于典型的黄海滩涂型湿地。这里孕育着种类繁多，生物多样性及其丰富，具有全球重要意义的生物多样性，</p>
+        <p>2002年被列入国际重要湿地名录。保护区是世界自然基金会（WWF）与原国家林业部合作的国际项目，1985年由原国家林业部和江苏省政府联合建立，1997年12月经国务院批准晋升为国家级自然保护区。</p>
+        <p>长期以来，麋鹿保护区始终坚持“以科研促保护、以旅游促发展”的治区方针，并打造“以园促区、以园兴区，园区共同发展”的新理念。</p>
+    </section>
+    <section>
+        <h2>盐城新四军纪念馆</h2>
+        <p>
+            位于市区建军东路，为全国规模最大、资料最全、特色最明显的新四军纪念设施。纪念馆由主馆区、建军广场（铜马广场）、新四军重建军部旧址三部分组成。</p>
+        <p>
+            主馆区位于城东，有东进雕塑、纪念碑、新四军展览馆和新四军人物馆、碑林、游客服务中心等设施；建军广场在市中心，以新四军骑兵铜像为主体的新四军重建军部纪念塔是盐城的城市标志。</p>
+        <p>新四军重建军部旧址在城西泰山庙内，有刘少奇、陈毅等领导人的旧居，陈列着文物、史料、图片等。</p>
+    </section>
+
+    <section>
+        <h2>九龙口</h2>
+        <p>九龙口位于建湖县九龙口旅游度假区西南部，处于射阳湖腹部，由蚬河、林上河、钱沟河、安丰河、新舍河、溪河、莫河、涧河、城河等九条自然河道汇集而成，故名“九龙口”。</p>
+        <p>
+            九龙口风景区是国家湿地公园也是AAAA景区风光绮丽、迷人。九条河流从四面八方向荡心岛蜿蜒汇集而来，犹如九龙抢珠。</p>
+        <p>离岸50米的湖心岛与水乡泽国风光交相辉映，形成了九龙口风景区的精华，堪称一绝。</p>
+    </section>
+
+    <section>
+        <h2>东台泰山寺</h2>
+        <p>泰山护国禅寺又称泰山寺。国家AAAA级旅游景区，位于东台市西溪风景区，与海春轩塔相毗邻。建于南宋嘉定年间（1208—1224），迄今已近800年。</p>
+        <p>
+            沿着蜿蜒的盘山小路拾阶而上，曲径通幽。</p>
+        <p>如果您对佛教文化感兴趣，一定要来泰山寺看看。</p>
+    </section>
+    <div class="rotation-container">
+        <div class="rotation">
+            <img src="img/milu.gif">
+        </div>
+
+        <div class="rotation">
+            <img src="img/xinsijun.gif">
+        </div>
+
+        <div class="rotation">
+            <img src="img/jiulongkou.gif">
+        </div>
+<!--        左按钮-->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+<!--        右按钮-->
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+</main>
+<div class="end">
+    <h1>海内存知己，天涯若比邻 </h1>
+  </div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);//左按钮-1，右按钮+1
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("rotation");//获取Class为rotation的元素数组
+        if (n > slides.length) {//越界处理（右越界）
+            slideIndex = 1
+        }
+        if (n < 1) {//越界处理（左越界）
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {//让所有的图片都不显示
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";//只显示sideIndex对应项目的图片
+    }
+
+</script>
+</body>
+</html>
