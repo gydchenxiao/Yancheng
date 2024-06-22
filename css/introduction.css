@@ -1,0 +1,276 @@
+.menu li {
+    padding: 6px 0px !important;
+}
+
+.head {
+    background: #fff;
+    font-size: 36px;
+    padding: 0px 0
+}
+
+
+body {
+    background-color: rgb(235, 225, 225);
+    line-height: 24px;
+    margin: 0
+}
+
+
+.video {
+    /*视频设置*/
+    text-align: center;
+    margin-top: 50px;
+}
+
+.geography{
+    /*地理*/
+    clear: both;/*清除浮动*/
+    background-color: rgb(235, 225, 225);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#dili p {
+    /*地理文本设置*/
+    letter-spacing: 2px;
+    /*字间间距*/
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+#lishi {
+    /*历史*/
+    clear: both;
+    background-color: rgb(235, 225, 225);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    /*边框样式*/
+    border-radius: 10px;
+    /*边框弧度*/
+
+}
+
+#lishi p {
+    /*历史字段*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+
+#lishi img {
+    /*历史图片*/
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+    /*边框弧度*/
+
+}
+
+#lishi img:hover {
+    /*历史图片划过时*/
+    transform: scale(1.2);
+}
+
+#ziyuan {
+    /*资源*/
+    clear: both;
+    background-color: rgb(235, 225, 225);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    /*边框样式*/
+    border-radius: 10px;
+    /*边框弧度*/
+
+}
+
+#ziyuan p {
+    /*资源字段*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*文段缩进*/
+    line-height: 1.5em;
+}
+
+#ziyuan img {
+    /*资源图片*/
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+
+}
+
+#ziyuan img:hover {
+    /*鼠标划过时资源图片*/
+    transform: scale(1.2);
+}
+
+#quhua {
+    /*行政区划*/
+    clear: both;
+    background-color: rgb(235, 225, 225);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+
+}
+
+#quhua p {
+    /*区划段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+#quhua img {
+    /*区划图片*/
+    width: 800px;
+    height: 400px;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+
+}
+
+#quhua img:hover {
+    /*鼠标划过时的区划图片*/
+    transform: scale(1.2);
+}
+
+.mulu {
+    /*页面目录*/
+    float: left;
+    /*左浮动*/
+    width: 200px;
+    margin-top: 30px;
+    background-color: #00CCCC;
+}
+
+#d1 {
+    /*目录块大小设置*/
+    font-family: 黑体;
+    font-size: 100%;
+    /*字体大小*/
+    color: white;
+    float: left;
+    background-color: rgb(61, 58, 128);
+    width: 70px;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 4px;
+}
+
+#d2 {
+    /*目录内容块设置*/
+    clear: both;
+}
+
+.mulu ul li {
+    /*列表设置*/
+    list-style-type: none;
+}
+
+.mulu ul {
+    /*目录块*/
+    margin: 0px;
+    padding: 15px 10px 15px 10px;
+}
+
+.mulu ul li a {
+    /*目录超链接设置*/
+    display: block;
+    /*下划线无*/
+    color: rgb(79, 50, 72);
+    line-height: 30px;
+    /*行高*/
+    border-bottom: 1px dashed black;
+    /*底部边框*/
+    padding: 0px 0px 0px 0px;
+}
+
+.mulu ul li a:hover {
+    /*鼠标划过时目录时*/
+    color: aqua;
+}
+
+.mulu span {
+    /*目录链接块*/
+    float: right;
+}
+
+
+p {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both
+}
+
+.menu li {
+    list-style: none
+}
+
+.banner {
+    margin-bottom: 10px;
+    position: relative;
+    clear: both
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    background: #00CCCC;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 55;
+    float: left
+}
+
+.menu li a {
+    color: #fff
+}
+
+.menu li {
+    float: left;
+    font-size: 16px;
+    padding: 7px 30px;
+    width: 140px
+}
+
+.content {
+    padding-bottom: 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%
+}
+
+.end {
+    clear: both;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
